@@ -1,0 +1,24 @@
+# 仓库级 Git 忽略规则
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.tmp
+*.temp
+~$*
+
+# OpenClaw
+.openclaw-dev/
+.openclaw/backup/
+
+# 项目特定忽略规则在各项目目录下
