@@ -1,0 +1,12 @@
+# save-ancient-beauties 项目特定忽略规则
+
+# 文档草稿
+*.txt
+*.doc
+*.docx
+
+# 章节草稿
+chapters/drafts/
+
+# 临时笔记
+notes/temp/

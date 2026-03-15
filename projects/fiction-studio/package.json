@@ -1,0 +1,135 @@
+{
+  "name": "fiction-studio",
+  "version": "1.0.0",
+  "description": "AI-powered short story creation system based on real story analysis data / 基于真实拆稿数据的AI短篇小说创作系统",
+  "author": "Claude Code",
+  "license": "MIT",
+  "created": "2026-02-08",
+  "keywords": [
+    "fiction",
+    "writing",
+    "story-creation",
+    "creative-writing",
+    "short-stories",
+    "fiction-analysis",
+    "writing-tools",
+    "小说创作",
+    "短篇小说",
+    "写作工具",
+    "创作辅助"
+  ],
+  "categories": [
+    "Writing",
+    "Creative",
+    "Education"
+  ],
+  "supported_languages": [
+    "zh",
+    "en",
+    "bilingual"
+  ],
+  "skills": [
+    {
+      "name": "idea-generator",
+      "file": "skills/idea-generator.md",
+      "description": "Generate story ideas and plot concepts based on extensive inspiration libraries / 基于灵感库生成故事创意和情节概念"
+    },
+    {
+      "name": "story-structure",
+      "file": "skills/story-structure.md",
+      "description": "Design story structures based on analyzed fiction patterns / 基于拆稿分析设计故事结构"
+    },
+    {
+      "name": "plot-builder",
+      "file": "skills/plot-builder.md",
+      "description": "Build detailed plots with conflicts, twists, and pacing / 构建详细情节，包含冲突、反转和节奏控制"
+    },
+    {
+      "name": "character-creator",
+      "file": "skills/character-creator.md",
+      "description": "Create complex characters with depth, flaws, and growth arcs / 创建有深度、有缺陷、有成长弧的人物角色"
+    },
+    {
+      "name": "scene-writer",
+      "file": "skills/scene-writer.md",
+      "description": "Write compelling scenes with sensory details, dialogue, and pacing / 写出引人入胜的场景，包含感官细节、对话和节奏控制"
+    },
+    {
+      "name": "conflict-designer",
+      "file": "skills/conflict-designer.md",
+      "description": "Design multi-layered conflicts with internal and external dimensions / 设计多层次冲突，包含内在和外在维度"
+    },
+    {
+      "name": "pacing-controller",
+      "file": "skills/pacing-controller.md",
+      "description": "Control story pacing with sentence structure, scene length, and tension curves / 控制故事节奏，包含句式结构、场景长度和张力曲线"
+    },
+    {
+      "name": "story-analyzer",
+      "file": "skills/story-analyzer.md",
+      "description": "Analyze existing stories to extract structure, techniques, and patterns / 分析现有故事，提取结构、技巧和模式"
+    }
+  ],
+  "data_sources": {
+    "inspiration_libraries": {
+      "world_affairs": "世情灵感库.xlsx",
+      "suspense": "悬疑灵感库.xlsx"
+    },
+    "analyzed_stories": [
+      "人脸解锁失败 (11,708字)",
+      "活在真空里 (19,911字)",
+      "南南以星 (11,436字)",
+      "知叔明理 (19,199字)"
+    ]
+  },
+  "methodology": {
+    "structure_analysis": "基于真实拆稿数据总结的结构规律",
+    "technique_extraction": "从实际作品中提炼的写作技巧",
+    "pattern_recognition": "识别可复用的故事模式",
+    "data_driven": "数据驱动的创作方法论"
+  },
+  "features": {
+    "inspiration_generation": "灵感生成：支持世情、悬疑等多种类型",
+    "structure_templates": "结构模板：三幕式、时间循环、谜题揭秘等",
+    "conflict_design": "冲突设计：五层冲突体系，多维度叠加",
+    "character_systems": "人物系统：三层模型，成长弧光",
+    "scene_writing": "场景写作：7种场景类型，感官细节法",
+    "pacing_control": "节奏控制：4种节奏类型，张力曲线设计",
+    "twist_design": "反转设计：反转矩阵，多层反转技巧",
+    "story_analysis": "故事分析：完整拆解框架，技巧提取"
+  },
+  "target_users": [
+    "beginning_writers",
+    "advanced_writers",
+    "genre_writers"
+  ],
+  "use_cases": [
+    "学习短篇小说创作基础",
+    "优化故事结构",
+    "设计复杂反转",
+    "提升冲突张力",
+    "控制叙事节奏",
+    "创建复杂人物",
+    "写作高质量场景"
+  ],
+  "languages": {
+    "interface": ["zh", "en"],
+    "documentation": ["zh", "en"],
+    "skills": ["zh", "en", "bilingual"]
+  },
+  "requirements": {
+    "claude_code_version": ">=1.0.0",
+    "platforms": ["windows", "macos", "linux"]
+  },
+  "installation": {
+    "note": "Install to your Claude Code plugins directory"
+  },
+  "documentation": {
+    "readme": "README.md",
+    "skills": "skills/*.md"
+  },
+  "contact": {
+    "type": "plugin",
+    "support": "Claude Code"
+  }
+}
